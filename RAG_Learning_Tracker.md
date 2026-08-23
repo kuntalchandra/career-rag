@@ -65,6 +65,4 @@ Chunk-level access control: While the chunking is done by the pipeline, at that 
 
 Optional strengthening, not yet added: an explicit line stating that tagging happens per chunk rather than per document, so a single document can mix privileged and non-privileged sections without either forcing the whole document out of reach.
 
-## How to resume in a new thread
-
-Paste this file back in and say which day to continue from. The plan document itself, RAG_Study_Plan.md, stays the source of truth for what each day covers — this file only tracks where we are.
+covers — this file only tracks where we are.
