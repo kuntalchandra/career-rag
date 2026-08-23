@@ -24,14 +24,14 @@
 **What to cover:**
 - **Ingestion pipeline** — how source docs get processed, chunked, embedded, indexed; what happens on updates/deletes (re-embedding, index invalidation)
 - **Freshness/staleness tradeoffs** — real-time vs batch re-indexing, cost/latency implications
-- **Data lifecycle management** — versioning embeddings, schema changes, deprecating stale vectors, chunk-level access control (**highly relevant for Harvey** — legal docs have confidentiality/privilege boundaries; this is a natural bridge point in an interview)
+- **Data lifecycle management** — versioning embeddings, schema changes, deprecating stale vectors, chunk-level access control (**highly relevant for Legal platfrom** — legal docs have confidentiality/privilege boundaries; this is a natural bridge point in an interview)
 - **Retrieval quality** — recall/precision tradeoffs, re-ranking, hybrid search (vector + keyword/BM25)
 
 **Resources:**
 - [Kapa.ai — Building a Robust RAG Pipeline in 2026](https://www.kapa.ai/blog/how-to-build-a-rag-pipeline-from-scratch-in-2026) — production-lens, good for lifecycle/reliability angle
 - [RAG Tutorial 2026 — AIToolRanked](https://aitoolranked.com/blog/rag-tutorial-beginners-2026-complete-guide) — covers Naive RAG → Hybrid RAG → Graph RAG → Agentic RAG spectrum, useful for "when does RAG break down" framing
 
-**Output for Day 3-4:** One paragraph specifically on how you'd design chunk-level access control for a legal document corpus. This is a strong, Harvey-specific talking point — shows you've thought about their actual domain, not generic RAG.
+**Output for Day 3-4:** One paragraph specifically on how you'd design chunk-level access control for a legal document corpus. This is a strong, Legal platfrom-specific talking point — shows you've thought about their actual domain, not generic RAG.
 
 ---
 
@@ -76,4 +76,4 @@ Send me your draft answers and I'll pressure-test them the way we do with your s
 
 ## Notes
 - This is EM-depth, not ML-engineer depth. You don't need to hand-derive embedding math — you need to reason about architecture, tradeoffs, and lifecycle like someone who'd lead the team building it.
-- The Harvey-specific bridge (chunk-level access control for privileged legal documents) is your strongest differentiator — most candidates won't connect RAG lifecycle management to legal confidentiality requirements. Use it.
+- The Legal platfrom-specific bridge (chunk-level access control for privileged legal documents) is your strongest differentiator — most candidates won't connect RAG lifecycle management to legal confidentiality requirements. Use it.
